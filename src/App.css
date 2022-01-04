@@ -1,0 +1,41 @@
+.app {
+  margin-top: 50px;
+}
+
+
+.btn-pink {
+  background-color: #D63691 !important;
+  border-radius: 12px !important;
+}
+
+.btn-pink:hover {
+  background-color: #a7246e !important;
+}
+
+input[type="text"], textarea {
+  background-color : #050406;
+  color: white;
+  border: none; /* <-- This thing here */
+  border: 1px solid rgb(44, 41, 41);
+  border-radius: 12px;
+}
+
+input[type="text"]:focus {
+  background-color : #050406; 
+  color: white;
+  outline-color: rgb(44, 41, 41) !important;
+  border-color: rgb(44, 41, 41);
+  box-shadow: none;
+}
+
+.task {
+  width: 100%;
+  background-color: #20212C;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+}
+
+.task p {
+  margin: 0;
+}
